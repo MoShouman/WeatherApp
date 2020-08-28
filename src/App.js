@@ -1,4 +1,6 @@
 import React, {Component} from 'react';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 class App extends Component{
   state = {
@@ -12,14 +14,24 @@ class App extends Component{
   searchHandler = event =>{
     if(event.key === 'Enter'){
       fetch(`${this.state.BASE}?q=${this.state.cityName}&units=metric&appid=${this.state.KEY}`)
-      .then((res)=>res.json())
-      .then((result)=>this.setState({weather:result}))
+      .then(response => {
+        if(response.ok) {
+          return response.json()
+        }
+        else{
+          toast.error('Invalid Input')
+          throw new Error('not ok, status: ' + response)
+        }
+      })
+      .then(weather => this.setState({weather}))
+      .catch(console.error);
     }
   }
 
   render(){
     return (
       <div className="App" style={{background:' url("imgs/weather.jpg")', backgroundSize:'cover', minHeight:'100vh'}}>
+        <ToastContainer position="top-center" autoClose={2000} />
         <div className='row mx-0 search-box'>
             <input className="form-control col-5 my-3 mx-auto" type="search" placeholder="Search" aria-label="Search" 
               onChange={(e)=>this.setState({cityName:e.target.value})}
@@ -38,7 +50,6 @@ class App extends Component{
                   <p className='font-weight-bolder' style={{fontSize:'40px'}}>{Math.round(this.state.weather.main.temp)}°C</p>  
                 </div>
               </div>
-              <p className='font-weight-bold mt-3' style={{fontSize:'30px'}}>{this.state.weather.weather[0].main}</p>
             </div>
           )
         :(<p className='font-weight-bold mt-3 text-center' style={{fontSize:'30px',color:'white'}}>Enter City Please.</p>
