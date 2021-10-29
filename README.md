@@ -10,5 +10,9 @@ A web application that helps you to get min temperature, max temperature, how wo
 
 reactJS, and open weather map API.
 
+## Live website
+
+<a href="https://coolweather-app.netlify.app/">Cool Weather APP</a>
+
 ## How it looks
 | <img src="https://i.ibb.co/f8k6Xkj/start-min.png" alt="start screen" width="45%"> | <img src="https://i.ibb.co/rZSC013/searched-min.png" alt="searched screen" width="45%"> |
