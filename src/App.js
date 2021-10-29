@@ -29,7 +29,6 @@ class App extends Component{
   }
 
   render(){
-    console.log(this.state.weather)
     return (
       <div className="App" style={{background:' url("imgs/weather.jpg")', backgroundSize:'cover', minHeight:'100vh'}}>
         <ToastContainer position="top-center" autoClose={2000}/>
