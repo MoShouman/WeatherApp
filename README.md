@@ -1,6 +1,6 @@
 <img src="https://i.ibb.co/mRwg57Q/Cool-Weather-APP-min.png" alt="Cool-Weather-APP-min" border="0" width="100%">
 
-<center>Cool Weather APP</center>
+<h1 align='center'>Cool Weather APP</h1>
 
 A web application that helps you to get min temperature, max temperature, how would it feels like, humidity, and wind.
 
@@ -11,4 +11,4 @@ A web application that helps you to get min temperature, max temperature, how wo
 reactJS, and open weather map API.
 
 ## How it looks
-| <img src="https://i.ibb.co/f8k6Xkj/start-min.png" alt="start screen" width="250"> | <img src="https://i.ibb.co/rZSC013/searched-min.png" alt="searched screen" width="250"> |
+| <img src="https://i.ibb.co/f8k6Xkj/start-min.png" alt="start screen" width="50%"> | <img src="https://i.ibb.co/rZSC013/searched-min.png" alt="searched screen" width="50%"> |
