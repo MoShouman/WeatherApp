@@ -1,14 +1,14 @@
-![Cool Weather APP](https://i.ibb.co/mRwg57Q/Cool-Weather-APP-min.png)
+<img src="https://i.ibb.co/mRwg57Q/Cool-Weather-APP-min.png" alt="Cool-Weather-APP-min" border="0" width="100%">
 
-# Cool Weather APP
+<center>Cool Weather APP</center>
 
 A web application that helps you to get min temperature, max temperature, how would it feels like, humidity, and wind.
+
+![GitHub last commit](https://img.shields.io/github/last-commit/MoShouman/WeatherApp)
 
 ## Built with
 
 reactJS, and open weather map API.
 
-
-
 ## How it looks
-| <img src="https://drive.google.com/file/d/13fV-2NnOgzeSaprHacktAMqgc0K9-xDS/view?usp=sharing" width="250"> | <img src="https://mk0jobadderjftub56m0.kinstacdn.com/wp-content/uploads/stackoverflow.com-300.jpg" width="250"> |
+| <img src="https://i.ibb.co/f8k6Xkj/start-min.png" alt="start screen" width="250"> | <img src="https://i.ibb.co/rZSC013/searched-min.png" alt="searched screen" width="250"> |
