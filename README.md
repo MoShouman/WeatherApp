@@ -1,4 +1,4 @@
-![Cool Weather APP](http://lmsotfy.com/so.png)
+![Cool Weather APP](https://i.ibb.co/mRwg57Q/Cool-Weather-APP-min.png)
 
 # Cool Weather APP
 
