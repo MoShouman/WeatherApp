@@ -43,7 +43,7 @@ class App extends Component{
             <div className='text-center' style={{color:'white'}}>
               <div className='city-box'>
                 <p className='font-weight-bold' style={{fontSize:'25px'}}>{`${this.state.weather.name}, ${this.state.weather.sys.country}`}</p>
-                <p className='font-weight-bold' style={{fontSize:'25px'}}>{this.state.weather.weather[0].description}</p>
+                <p className='font-weight-bold text-uppercase' style={{fontSize:'25px'}}>{this.state.weather.weather[0].description}</p>
 
               </div>
               <div className='row mx-0 px-5'>
